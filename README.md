@@ -1,3 +1,2 @@
 # Learn javascript
-Learning on the [learn.javascript.ru](https://learn.javascript.ru/")
-
+Learning on the [learn.javascript.ru](https://learn.javascript.ru/)
