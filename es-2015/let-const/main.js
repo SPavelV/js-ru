@@ -1,21 +1,31 @@
-'use strict';
+"use strict";
 
-function makeArmy() {
-    let shooters = [];
+// const user = {
+//     name: 'Вася'
+// };
+//
+// user.name = 'Петя';
+// user = 5;
 
-    for(let i = 0; i < 10; i++) {
-        shooters.push(function(){
-            alert(i);
-        });
+// const apple = 5;
+// apple = 10;
 
-        return shooters;
-    }
-}
-
-var army = makeArmy();
-
-army[0]();
-army[5]();
+// function makeArmy() {
+//     let shooters = [];
+//
+//     for(let i = 0; i < 10; i++) {
+//         shooters.push(function(){
+//             alert(i);
+//         });
+//
+//         return shooters;
+//     }
+// }
+//
+// var army = makeArmy();
+//
+// army[0]();
+// army[5]();
 
 // for(var i = 0; i < 10; i++) {
 //     console.log(i);
