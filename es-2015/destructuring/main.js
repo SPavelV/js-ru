@@ -1,16 +1,57 @@
 "use strict";
 
 let options = {
-    title: "Меню",
-    width: 100,
-    height: 200
+    size: {
+        width: 100,
+        height: 200
+    },
+    items: ["Пончик", "Пироженное"]
 };
 
-let {title, width, height} = options;
-
+let { title = "Меню", size: {width, height}, items: [item1, item2]} = options;
 alert(title);
 alert(width);
 alert(height);
+alert(item1);
+alert(item2);
+
+// let options = {
+//     title: "Меню"
+// };
+//
+// let {width:w=100, height:h=200, title} = options;
+//
+// alert(title);
+// alert(w);
+// alert(h);
+
+// let options = {
+//     title: "Меню"
+// };
+//
+// let {width=100, height=200, title} = options;
+//
+// alert(title);
+// alert(width);
+// alert(height);
+
+// let options = {
+//     title: "Меню",
+//     width: 100,
+//     height: 200
+// };
+//
+// let {width: w, height: h, title} = options;
+//
+// alert(title);
+// alert(w);
+// alert(h);
+
+// let {title, width, height} = options;
+//
+// alert(title);
+// alert(width);
+// alert(height);
 
 
 
